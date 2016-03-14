@@ -1,0 +1,16 @@
+Faculty,Name,java.langString,False,False,null
+Faculty,ID,java.langInteger,True,False,null
+Course,Name,java.langString,False,False,null
+Course,ID,java.langInteger,True,False,null
+Course,Code,java.langString,False,False,null
+Course,Hours,java.langInteger,False,False,null
+Course,Major_ID,java.langInteger,False,False,Major.ID
+Course,Semester,java.langInteger,False,False,null
+Student,ID,java.langInteger,True,False,null
+Student,GPA,java.langDouble,False,False,null
+Student,First_Name,java.langString,False,False,null
+Student,Age,java.langInteger,False,False,null
+Student,Last_Name,java.langString,False,False,null
+Student_in_Course,ID,java.langInteger,True,False,null
+Student_in_Course,Student_ID,java.langInteger,False,False,Student.ID
+Student_in_Course,Course_ID,java.langInteger,False,False,Course.ID
